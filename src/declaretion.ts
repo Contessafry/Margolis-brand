@@ -15,6 +15,7 @@ export interface User {
   cart: Product[];
   orders: Order[];
 }
+
 export interface Users {
   [key: User["id"]]: User;
 }
@@ -29,13 +30,12 @@ export interface Product {
   sizes: string[];
   colors: string[];
 }
-export interface Products {
-  [key: Product["id"]]: Product;
-}
-
 export interface Order {
   id: string;
   date: Date;
   products: Product[];
   state: "pending" | "shipped" | "delivered" | "cancelled";
+}
+export interface Products {
+  [key: Product["id"]]: Product;
 }

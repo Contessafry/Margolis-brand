@@ -8,7 +8,6 @@ import {
   UserLogged,
   Users,
 } from "./declaretion";
-uuidv4();
 export class EcomClass {
   userLogged: UserLogged = null;
   users: Users = {};
