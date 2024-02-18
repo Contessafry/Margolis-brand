@@ -22,13 +22,35 @@ export interface Users {
 export type UserLogged = Omit<User, "password" | "isActive"> | null;
 export interface Product {
   id: string;
-  name: string;
+  storeId: string;
+  clientId: string;
+  externalId: null | string;
+  title: string;
   description: string;
-  price: number;
-  covers: string[];
+  previewUrl: string;
+  externalPreviewUrl: string;
+  externalThumbnailUrl: string;
+  isReadyToPublish: boolean;
+  publishedAt: null | string;
+  createdAt: string;
+  updatedAt: string;
   category: string;
-  sizes: string[];
-  colors: string[];
+  previewFileType: string;
+  productVariantPreviewScene: string;
+  variants: Variants[];
+  productVariantOptions: productVariantOptions[];
+}
+export interface Variants {
+  id: string;
+  clientId: string;
+  productId: string;
+  title: string;
+  externalId: null | string;
+  connectionStatus: "connected" | "not_connected" | "ignored";
+}
+export interface productVariantOptions {
+  name: string;
+  values: string[];
 }
 export interface Order {
   id: string;

@@ -1,0 +1,172 @@
+{
+  "id": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+  "storeId": "346bfd73-eefb-40f0-a339-830d4c26cdb0",
+  "clientId": "a5ce448f-64ea-4340-b512-e5029e8f0878",
+  "externalId": null,
+  "title": "Maglietta girocollo unisex premium",
+  "description": "\u003Cdiv\u003E\u003Cp\u003ET-shirt unisex di alta qualit\u00e0 - immancabile. Un pezzo molto amato: girocollo, e maniche corte in cotone pettinato e ringspun di alta qualit\u00e0 che funge da perfetta tela per la stampa.\u003C/p\u003E\u003Cp\u003ECaratteristiche: Cucitura laterale. Retail fit. Taglia unisex. Spalle nastrate. Tessuto prelavato.\u003C/p\u003E\u003Cp\u003EQuesto prodotto \u00e8 realizzato su richiesta. Nessun ordine minimo.\u003C/p\u003E\u003C/div\u003E",
+  "previewUrl": "https://gelato-api-live.s3.eu-west-1.amazonaws.com/ecommerce/store_product_image/59839af9-fcc5-4023-a9b6-6464939d228e/preview?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA3QM3COBPZOL2E4GY%2F20240216%2Feu-west-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20240216T171038Z\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Expires=86400\u0026X-Amz-Signature=02805ee1bc0bdbf162481ab4d01362dc124ac2f4d4a16675134b490a4b936d99",
+  "externalPreviewUrl": "",
+  "externalThumbnailUrl": "",
+  "isReadyToPublish": true,
+  "publishedAt": null,
+  "createdAt": "2024-02-11T17:02:07+0000",
+  "updatedAt": "2024-02-11T17:02:23+0000",
+  "category": "",
+  "previewFileType": "jpeg",
+  "productVariantPreviewScene": "editor/front",
+  "variants": [
+    {
+      "id": "b4d26410-9ec6-452b-8e95-deb4d7522335",
+      "clientId": "a5ce448f-64ea-4340-b512-e5029e8f0878",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "title": "Heather Cardinal - M - Direct-to-garment (DTG)",
+      "externalId": null,
+      "connectionStatus": "connected",
+      "isHidden": false
+    }
+  ],
+  "productVariantOptions": [],
+  "collectionsIds": [],
+  "tags": [],
+  "status": "created",
+  "productImages": [
+    {
+      "id": "59839af9-fcc5-4023-a9b6-6464939d228e",
+      "storeId": "346bfd73-eefb-40f0-a339-830d4c26cdb0",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "productVariantIds": [],
+      "fileUrl": "https://gelato-api-live.s3.eu-west-1.amazonaws.com/ecommerce/store_product_image/59839af9-fcc5-4023-a9b6-6464939d228e/preview?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA3QM3COBPZOL2E4GY%2F20240216%2Feu-west-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20240216T171038Z\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Expires=86400\u0026X-Amz-Signature=02805ee1bc0bdbf162481ab4d01362dc124ac2f4d4a16675134b490a4b936d99",
+      "isPrimary": true,
+      "status": "created",
+      "createdAt": "2024-02-11T17:02:57+0000",
+      "updatedAt": "2024-02-11T17:02:57+0000",
+      "metadata": []
+    },
+    {
+      "id": "5f6f9941-4a96-49f5-8640-5dc1533bc136",
+      "storeId": "346bfd73-eefb-40f0-a339-830d4c26cdb0",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "productVariantIds": ["b4d26410-9ec6-452b-8e95-deb4d7522335"],
+      "fileUrl": "https://gelato-api-live.s3.eu-west-1.amazonaws.com/ecommerce/store_product_image/5f6f9941-4a96-49f5-8640-5dc1533bc136/preview?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA3QM3COBPZOL2E4GY%2F20240216%2Feu-west-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20240216T171038Z\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Expires=86400\u0026X-Amz-Signature=21ff5fba111ba10a7f47d8ebf2a860b98039092cf793201c1baaf62a975694ed",
+      "isPrimary": false,
+      "status": "created",
+      "createdAt": "2024-02-11T17:02:57+0000",
+      "updatedAt": "2024-02-11T17:02:57+0000",
+      "metadata": []
+    }
+  ],
+  "metadata": [
+    {
+      "id": "141736c4-c082-476a-b94c-0366d944dce0",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "previewFileType",
+      "value": "jpeg",
+      "isExternal": false
+    },
+    {
+      "id": "cf1c8c09-8c6f-45da-8622-66a452d01e7f",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "previewScenes",
+      "value": "[\u0022editor/front\u0022]",
+      "isExternal": false
+    },
+    {
+      "id": "72fb968e-7364-419a-9e9b-234c5bc99db9",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "primaryPreviewScene",
+      "value": "editor/front",
+      "isExternal": false
+    },
+    {
+      "id": "202d4ec7-8903-449b-bc16-56488ece5178",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "primaryPreviewProductVariantKey",
+      "value": "apparel_product_gca_t-shirt_gsc_crewneck_gcu_unisex_gqa_prm_gsi_m_gco_heather-cardinal_gpr_4-0",
+      "isExternal": false
+    },
+    {
+      "id": "1850dca1-46de-4b5d-9f0e-76ad31316d09",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "sanityProductId",
+      "value": "premium-unisex-crewneck-t-shirt",
+      "isExternal": false
+    },
+    {
+      "id": "55b9a8dc-0cad-4d3f-8d03-1fb606de1077",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "productVariantOptions",
+      "value": "[{\u0022name\u0022:\u0022GarmentTechnology\u0022,\u0022values\u0022:[\u0022dtg\u0022]},{\u0022name\u0022:\u0022GarmentColor\u0022,\u0022values\u0022:[\u0022heather-cardinal\u0022]},{\u0022name\u0022:\u0022GarmentSize\u0022,\u0022values\u0022:[\u0022M\u0022]},{\u0022name\u0022:\u0022GarmentPrint\u0022,\u0022values\u0022:[\u00224-0\u0022]}]",
+      "isExternal": false
+    },
+    {
+      "id": "392e311a-7887-47d5-9273-2c9bc9b610f8",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "publishScopes",
+      "value": "[\u0022product\u0022,\u0022variants\u0022,\u0022images\u0022,\u0022prices\u0022]",
+      "isExternal": false
+    },
+    {
+      "id": "ccc4c087-481c-4f49-a1fe-e4da807e8c84",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "publishMode",
+      "value": "create_product",
+      "isExternal": false
+    },
+    {
+      "id": "f79adcad-938a-4a11-b146-c9baace4144a",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "publishImmediately",
+      "value": "false",
+      "isExternal": false
+    },
+    {
+      "id": "2bbda96d-fd57-4112-b336-48a0c0bf2354",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "publishWithFreeShipping",
+      "value": "false",
+      "isExternal": false
+    },
+    {
+      "id": "4d860d1e-108a-48a1-9569-7f3a639d11ff",
+      "productId": "094d91e8-a650-40ec-9499-ea041f9c2b05",
+      "variantId": null,
+      "imageId": null,
+      "key": "usedStandardMockup",
+      "value": "1",
+      "isExternal": false
+    }
+  ],
+  "handle": null,
+  "publishingErrorCode": null,
+  "publishingDetailsFlags": [],
+  "hasDraft": false,
+  "isFreeShipping": false,
+  "publishingErrorDetails": null,
+  "productVideos": [],
+  "templateName": "",
+  "parentTemplateId": "",
+  "priceUpdatedAt": null,
+  "productVariantAttributes": [],
+  "personalizationSettings": null
+}
