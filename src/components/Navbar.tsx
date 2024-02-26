@@ -2,9 +2,7 @@
 import styled from "styled-components";
 import { Product } from "../declaretion";
 import CartDrawer from "./CartDrawer";
-interface NavProps {
-  cart: Product[];
-}
+
 const NavWrapper = styled.nav`
   width: 100%;
   padding: 5px;
@@ -27,7 +25,7 @@ const NavWrapper = styled.nav`
   }
 `;
 
-function NavBar({ cart }: NavProps) {
+function NavBar() {
   return (
     <NavWrapper>
       <h1>Margolis</h1>
@@ -38,7 +36,7 @@ function NavBar({ cart }: NavProps) {
         <li>Contacts</li>
         <li>About</li>
       </ul>
-      <CartDrawer cart={cart} />
+      <CartDrawer />
     </NavWrapper>
   );
 }

@@ -27,6 +27,7 @@ export interface Product {
   externalId: null | string;
   title: string;
   description: string;
+  price: number;
   previewUrl: string;
   externalPreviewUrl: string;
   externalThumbnailUrl: string;

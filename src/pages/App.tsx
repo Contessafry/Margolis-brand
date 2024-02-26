@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
-import { getProducts } from "./services/APIcalls";
-import { Product } from "./declaretion";
-import Card from "./components/Card";
-import Navbar from "./components/Navbar";
+import { useContext } from "react";
+
+import { Product } from "../declaretion";
+import Card from "../components/Card";
+import Navbar from "../components/Navbar";
 import styled from "styled-components";
+
+import { AppContext, AppContextType } from "../services/MainContext";
 
 const ProductDisplay = styled.div`
   padding: 10px;
@@ -15,29 +17,14 @@ const ProductDisplay = styled.div`
 `;
 
 function App() {
-  const [products, setProducts] = useState<null | Product[]>(null);
-  const [cart, setCart] = useState<Product[]>([]);
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      const products = await getProducts();
-      if (products) {
-        setProducts(products);
-      }
-    };
-    fetchProducts();
-  }, []);
-
-  function addToCart(product: Product) {
-    setCart([...cart, product]);
-  }
+  const { products, addToCart }: AppContextType = useContext(AppContext);
 
   if (!products) return <div>Loading</div>;
   return (
     <div id="container">
-      <Navbar cart={cart}></Navbar>
+      <Navbar />
       <ProductDisplay>
-        {products.map((product) => (
+        {products.map((product: Product) => (
           <Card key={product.id} product={product} addToCart={addToCart} />
         ))}
       </ProductDisplay>

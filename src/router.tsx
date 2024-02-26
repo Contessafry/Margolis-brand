@@ -1,10 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
+import App from "./pages/App";
+import ProductDetails from "./pages/ProductDetails";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/product/:productId", // Usa il parametro :productId nell'URL
+    element: <ProductDetails />,
   },
 ]);
 

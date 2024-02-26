@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Product } from "../declaretion";
+import { Link } from "react-router-dom";
 
 interface CardProps {
   product: Product;
@@ -26,13 +27,15 @@ function Card({ product, addToCart }: CardProps) {
 
   return (
     <CardWrapper key={id}>
-      <img style={{ width: "100%" }} src={previewUrl} alt={title} />
-      <h1>{title}</h1>
-      <p style={{ display: "none" }}>{description}</p>
-      <p>{externalPreviewUrl}</p>
+      <Link to={`/products/${id}`}>
+        <img style={{ width: "100%" }} src={previewUrl} alt={title} />
+        <h1>{title}</h1>
+        <p style={{ display: "none" }}>{description}</p>
+        <p>{externalPreviewUrl}</p>
+      </Link>
       <p>{!!productVariantOptions[0] && productVariantOptions[0].values}</p>
       <p>{!!productVariantOptions[1] && productVariantOptions[1].values}</p>
-      <p>PRICE</p>{" "}
+      <p>{product.price}£</p>
       <button onClick={() => addToCart(product)}>Add to cart</button>
     </CardWrapper>
   );

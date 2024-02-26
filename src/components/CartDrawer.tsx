@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Box from "@mui/joy/Box";
 import Drawer from "@mui/joy/Drawer";
 import Button from "@mui/joy/Button";
@@ -6,11 +6,10 @@ import List from "@mui/joy/List";
 import Divider from "@mui/joy/Divider";
 import ListItem from "@mui/joy/ListItem";
 import ListItemButton from "@mui/joy/ListItemButton";
-import { Product } from "../declaretion";
-interface CartDrawerProps {
-  cart: Product[];
-}
-function CartDrawer({ cart }: CartDrawerProps) {
+import { AppContext, AppContextType } from "../services/MainContext";
+
+function CartDrawer() {
+  const { cart }: AppContextType = useContext(AppContext);
   const [open, setOpen] = React.useState(false);
 
   const toggleDrawer =
@@ -28,7 +27,7 @@ function CartDrawer({ cart }: CartDrawerProps) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <Button variant="" color="neutral" onClick={toggleDrawer(true)}>
+      <Button color="neutral" onClick={toggleDrawer(true)}>
         🛒{cart.length}
       </Button>
       <Drawer anchor="right" open={open} onClose={toggleDrawer(false)}>
@@ -62,7 +61,7 @@ function CartDrawer({ cart }: CartDrawerProps) {
           <Divider />
           <List>
             <ListItem>
-              Total:{cart.reduce((acc, Product) => a + Product.price, 0)}
+              Total:{cart.reduce((acc, Product) => acc + Product.price, 0)}
               <ListItemButton>Checkout</ListItemButton>
             </ListItem>
           </List>
